@@ -22,7 +22,7 @@ public class Person : IPerson
     
     public void DisplayInfo()
     {
-        Console.Write(Contact);
+        Console.WriteLine($"Имя: {FirstName}\nФамилия: {LastName}\n{Contact}\n{GetRole()}");
     }
 
     public string GetRole()
