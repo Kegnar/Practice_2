@@ -1,0 +1,2 @@
+﻿namespace Practice_2;
+
