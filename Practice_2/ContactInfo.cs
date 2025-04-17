@@ -1,12 +1,21 @@
-﻿namespace Practice_2;
-
-public struct ContactInfo
+﻿public struct ContactInfo
 {
-    public string Email;
-    public string PhoneNumber;
+    string Email;
+    string PhoneNumber;
+
+    public ContactInfo(string email, string phoneNumber)
+    {
+        Email = email;
+        PhoneNumber = phoneNumber;
+    }
+    public ContactInfo()
+    {
+        Email = "Не заполнено";
+        PhoneNumber = "Ре заполнено";
+    }
 
     public override string ToString()
     {
-        return "Почта: " + Email + "\nТелефон: " + PhoneNumber;
+        return $"Email: {Email}\nНомер телефона: {PhoneNumber}";
     }
 }
