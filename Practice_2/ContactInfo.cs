@@ -10,9 +10,15 @@ public struct ContactInfo
         Email = "Нет данных";
         PhoneNumber = "Нет данных";
     }
+
+    public ContactInfo(string email, string phoneNumber)
+    {
+        Email = email;
+        PhoneNumber = phoneNumber;
+    }
    
     public override string ToString()
     {
-        return $"Контактный телефон: {PhoneNumber},\nПочта: {Email}";
+        return $"Контактный телефон: {PhoneNumber}\nПочта: {Email}";
     }
 }

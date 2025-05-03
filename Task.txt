@@ -23,10 +23,10 @@
     • ContactInfo Contact 
     • Реализуйте методы интерфейса IPerson в классе Person. 
     • Создайте производные классы Client и Trainer, которые наследуют от Person: 
-    • Класс Client добавляет свойства: 
+  Класс Client добавляет свойства: 
     • string ClientID 
     • MembershipType Membership 
-    • Класс Trainer добавляет свойства: 
+  Класс Trainer добавляет свойства: 
     • string TrainerID 
     • List<string> Specialization.  Реализация: 
     • Создайте класс FitnessCenter, который содержит списки клиентов и тренеров 
